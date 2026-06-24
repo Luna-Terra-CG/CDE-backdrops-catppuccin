@@ -1,3 +1,11 @@
+---
+whiskers:
+    version: "^2.9.0"
+    matrix:
+    - flavor
+    filename: "../backdrops/{{flavor.identifier}}/Asanoha.xpm"
+    hex_format: "#{{R}}{{G}}{{B}}"
+---
 /* XPM */
 static char * Asanoha_xpm[] = {
 "400 347 2 1",

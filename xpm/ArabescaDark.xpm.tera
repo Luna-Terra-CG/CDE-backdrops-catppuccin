@@ -1,3 +1,11 @@
+---
+whiskers:
+    version: "^2.9.0"
+    matrix:
+    - flavor
+    filename: "../backdrops/{{flavor.identifier}}/ArabescaDark.xpm"
+    hex_format: "#{{R}}{{G}}{{B}}"
+---
 /* XPM */
 static char * ArabescaDark_xpm[] = {
 "500 500 3 1",

@@ -1,3 +1,11 @@
+---
+whiskers:
+    version: "^2.9.0"
+    matrix:
+    - flavor
+    filename: "../backdrops/{{flavor.identifier}}/Heating.xpm"
+    hex_format: "#{{R}}{{G}}{{B}}"
+---
 /* XPM */
 static char * Heating_xpm[] = {
 "1920 236 4 1",

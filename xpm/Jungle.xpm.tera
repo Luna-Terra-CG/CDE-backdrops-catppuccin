@@ -1,3 +1,11 @@
+---
+whiskers:
+    version: "^2.9.0"
+    matrix:
+    - flavor
+    filename: "../backdrops/{{flavor.identifier}}/Jungle.xpm"
+    hex_format: "#{{R}}{{G}}{{B}}"
+---
 /* XPM */
 static char * Jungle_xpm[] = {
 "640 640 2 1",

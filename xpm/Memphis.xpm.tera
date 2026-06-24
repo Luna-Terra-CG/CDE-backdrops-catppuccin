@@ -1,3 +1,11 @@
+---
+whiskers:
+    version: "^2.9.0"
+    matrix:
+    - flavor
+    filename: "../backdrops/{{flavor.identifier}}/Memphis.xpm"
+    hex_format: "#{{R}}{{G}}{{B}}"
+---
 /* XPM */
 static char * Memphis_xpm[] = {
 "116 131 5 1",

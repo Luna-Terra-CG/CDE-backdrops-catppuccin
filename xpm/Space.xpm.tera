@@ -1,3 +1,11 @@
+---
+whiskers:
+    version: "^2.9.0"
+    matrix:
+    - flavor
+    filename: "../backdrops/{{flavor.identifier}}/Space.xpm"
+    hex_format: "#{{R}}{{G}}{{B}}"
+---
 /* XPM */
 /* This file is a part of the NsCDE - Not so Common Desktop Environment */
 static char * Space_pm[] = {
