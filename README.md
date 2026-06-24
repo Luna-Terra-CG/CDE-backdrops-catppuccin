@@ -5,6 +5,8 @@ Requirements:
 - Bash
 - GnuCoreUtils or uutils
 - ffmpeg
+- Whiskers
+
 Once requirements are met run build.sh
 
 ## Previews
