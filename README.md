@@ -2,8 +2,7 @@
 
 ## Building
 Requirements:
-- Bash
-- GnuCoreUtils or uutils
+- Bash (maybe)
 - ffmpeg
 - Whiskers
 
